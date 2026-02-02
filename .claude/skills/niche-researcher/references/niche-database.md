@@ -1,242 +1,223 @@
-# Extended Niche Database
+# Niche Database
 
-Comprehensive niche data with CPM ranges, audience demographics, and content strategies.
+Comprehensive data for YouTube niche recommendations.
 
 ---
 
 ## Tech & AI Niches
 
 ### AI Tools Reviews
-- **CPM Range:** $8-15 (US), $3-6 (Asia)
-- **Best Audience:** 18-34, tech-savvy professionals
-- **Channel Types:** Faceless, screen recording
-- **Time per Video:** 2-4 hours
-- **Viral Potential:** High (new tools trend)
-- **Evergreen Score:** Medium
+- **CPM:** $8-15 (USA), $2-5 (Global)
+- **Best For:** Faceless, Screen recording
+- **Time/Video:** 2-4 hours
 - **Video Ideas:**
-  1. "5 AI Tools That Will Replace Your Job in 2024"
-  2. "I Tried 10 AI Video Generators - Here's the Best"
-  3. "Free AI Tools That Feel Illegal to Know"
+  1. "I Tested 10 AI Video Generators - Best One Is..."
+  2. "FREE AI Tools That Feel Illegal to Know"
+  3. "AI Tools That Will Replace Your Job in 2024"
+  4. "ChatGPT vs Claude vs Gemini - Ultimate Comparison"
+  5. "5 AI Side Hustles That Pay $500/Day"
 
-### Tech News & Commentary
-- **CPM Range:** $6-12 (US), $2-4 (Asia)
-- **Best Audience:** 18-44, tech enthusiasts
-- **Channel Types:** Personal brand, faceless
-- **Time per Video:** 1-2 hours
-- **Viral Potential:** High (breaking news)
-- **Evergreen Score:** Low
+### Tech Tutorials
+- **CPM:** $10-20 (USA), $3-7 (Global)
+- **Best For:** Screen recording, Personal brand
+- **Time/Video:** 4-8 hours
 - **Video Ideas:**
-  1. "Apple Just Changed Everything"
-  2. "Why Everyone is Leaving [Platform]"
-  3. "The Tech Scandal No One is Talking About"
-
-### Software Tutorials
-- **CPM Range:** $10-20 (US), $4-8 (Asia)
-- **Best Audience:** 25-44, professionals
-- **Channel Types:** Screen recording
-- **Time per Video:** 4-8 hours
-- **Viral Potential:** Low
-- **Evergreen Score:** High
-- **Video Ideas:**
-  1. "Excel Formulas You NEED to Know"
-  2. "Complete Photoshop Tutorial for Beginners"
-  3. "Python Automation - Do 4 Hours Work in 4 Minutes"
+  1. "Python Automation - Do 4 Hours Work in 4 Minutes"
+  2. "Excel Formulas That Will Change Your Life"
+  3. "Complete Photoshop Tutorial for Beginners"
+  4. "Build Your First App in 30 Minutes"
+  5. "Linux Commands Every Developer Needs"
 
 ---
 
-## Finance & Money Niches
+## Finance Niches
 
 ### Make Money Online
-- **CPM Range:** $15-30 (US), $5-10 (Asia)
-- **Best Audience:** 18-34, ambitious beginners
-- **Channel Types:** Personal brand (best), faceless
-- **Time per Video:** 4-8 hours
-- **Viral Potential:** High
-- **Evergreen Score:** Medium
+- **CPM:** $15-30 (USA), $5-10 (Global)
+- **Best For:** Personal brand (best), Faceless (ok)
+- **Time/Video:** 4-8 hours
 - **Video Ideas:**
-  1. "How I Made $10,000 in 30 Days (Proof)"
-  2. "5 Side Hustles That Pay $500/Day"
-  3. "Passive Income Ideas That Actually Work"
+  1. "How I Made $10,000 in 30 Days (With Proof)"
+  2. "5 Side Hustles That Pay More Than Your Job"
+  3. "Passive Income Ideas That Actually Work in 2024"
+  4. "I Tried Every Online Business - Here's What Works"
+  5. "From $0 to $1000/Month - Step by Step"
 
 ### Personal Finance
-- **CPM Range:** $10-20 (US), $3-7 (Asia)
-- **Best Audience:** 25-44, working professionals
-- **Channel Types:** Personal brand, tutorials
-- **Time per Video:** 3-5 hours
-- **Viral Potential:** Medium
-- **Evergreen Score:** High
+- **CPM:** $10-20 (USA), $3-6 (Global)
+- **Best For:** Personal brand, Tutorials
+- **Time/Video:** 3-5 hours
 - **Video Ideas:**
   1. "How to Budget Your Salary (50/30/20 Rule)"
-  2. "Retirement Planning in Your 20s"
+  2. "Investing for Beginners - Start With $100"
   3. "Credit Card Hacks Banks Don't Want You to Know"
+  4. "How to Save $10,000 in One Year"
+  5. "Retirement Planning in Your 20s"
 
 ### Crypto & Trading
-- **CPM Range:** $12-25 (US), $4-8 (Asia)
-- **Best Audience:** 18-34, risk-takers
-- **Channel Types:** All types work
-- **Time per Video:** 2-4 hours
-- **Viral Potential:** Very High (volatile)
-- **Evergreen Score:** Low
+- **CPM:** $12-25 (USA), $4-8 (Global)
+- **Best For:** All channel types
+- **Time/Video:** 2-4 hours
 - **Video Ideas:**
-  1. "This Altcoin Will 100x (Here's Why)"
-  2. "Day Trading Strategy That Made Me $X"
-  3. "Crypto Market Crash - What I'm Buying"
+  1. "This Altcoin Will 100x - Here's Why"
+  2. "Bitcoin Price Prediction 2025"
+  3. "Day Trading Strategy That Actually Works"
+  4. "Crypto for Beginners - Complete Guide"
+  5. "I Bought Every Memecoin - Results After 30 Days"
 
 ---
 
 ## Entertainment Niches
 
-### Facts & Lists (Faceless)
-- **CPM Range:** $3-8 (US), $1-3 (Asia)
-- **Best Audience:** 13-34, casual viewers
-- **Channel Types:** Faceless only
-- **Time per Video:** 2-4 hours
-- **Viral Potential:** High
-- **Evergreen Score:** Medium
+### Facts & Lists
+- **CPM:** $3-8 (USA), $1-3 (Global)
+- **Best For:** Faceless only
+- **Time/Video:** 2-4 hours
 - **Video Ideas:**
   1. "50 Facts That Will Blow Your Mind"
   2. "Things You're Doing Wrong Every Day"
-  3. "Secrets [Industry] Doesn't Want You to Know"
+  3. "Secrets Airlines Don't Want You to Know"
+  4. "Most Dangerous Places on Earth"
+  5. "10 Inventions That Changed the World"
 
-### Story Time / True Crime
-- **CPM Range:** $4-10 (US), $1-4 (Asia)
-- **Best Audience:** 18-44, story lovers
-- **Channel Types:** Personal brand, faceless
-- **Time per Video:** 4-8 hours
-- **Viral Potential:** Medium
-- **Evergreen Score:** High
-- **Video Ideas:**
-  1. "The Disappearance of [Person]"
-  2. "The Biggest Scam in History"
-  3. "What Happened to [Missing Person]"
-
-### Motivation & Self-Help
-- **CPM Range:** $6-12 (US), $2-5 (Asia)
-- **Best Audience:** 18-34, self-improvement seekers
-- **Channel Types:** Faceless, personal brand
-- **Time per Video:** 1-3 hours
-- **Viral Potential:** Medium
-- **Evergreen Score:** High
+### Motivation & Self-improvement
+- **CPM:** $6-12 (USA), $2-5 (Global)
+- **Best For:** Faceless, Personal brand
+- **Time/Video:** 1-3 hours
 - **Video Ideas:**
   1. "Watch This When You Feel Like Giving Up"
-  2. "5 Habits That Changed My Life"
+  2. "5 Habits That Will Change Your Life"
   3. "Why Successful People Wake Up at 4 AM"
-
----
-
-## Education Niches
-
-### Language Learning
-- **CPM Range:** $8-15 (US), $3-6 (Asia)
-- **Best Audience:** 18-34, students & travelers
-- **Channel Types:** Personal brand, tutorials
-- **Time per Video:** 3-5 hours
-- **Viral Potential:** Medium
-- **Evergreen Score:** Very High
-- **Video Ideas:**
-  1. "Learn [Language] in 30 Days Challenge"
-  2. "100 Most Common Words in [Language]"
-  3. "Native Speaker Reacts to Language Learners"
-
-### Study Tips & Productivity
-- **CPM Range:** $6-12 (US), $2-4 (Asia)
-- **Best Audience:** 13-24, students
-- **Channel Types:** Personal brand, screen recording
-- **Time per Video:** 2-4 hours
-- **Viral Potential:** Medium (exam seasons)
-- **Evergreen Score:** High
-- **Video Ideas:**
-  1. "How I Got Straight A's Without Studying"
-  2. "The Pomodoro Technique That Changed Everything"
-  3. "Best Note-Taking Apps for Students"
+  4. "How to Stop Being Lazy - Neuroscience"
+  5. "The 1% Rule That Changed Everything"
 
 ---
 
 ## Gaming Niches
 
 ### Gaming Clips & Highlights
-- **CPM Range:** $2-6 (US), $0.5-2 (Asia)
-- **Best Audience:** 13-24, gamers
-- **Channel Types:** Faceless, personal brand
-- **Time per Video:** 1-2 hours
-- **Viral Potential:** Very High
-- **Evergreen Score:** Low
+- **CPM:** $2-6 (USA), $0.5-2 (Global)
+- **Best For:** Faceless, Mixed
+- **Time/Video:** 1-2 hours
 - **Video Ideas:**
   1. "[Game] Best Moments Compilation"
-  2. "Insane Clutch Plays of the Week"
-  3. "[Pro Player] Best Plays Ever"
+  2. "Insane Plays That Will Blow Your Mind"
+  3. "[Pro Player] Best Clutches of the Year"
+  4. "Funny Gaming Moments - Try Not to Laugh"
+  5. "Top 10 Plays of the Week"
 
-### Game Reviews & News
-- **CPM Range:** $4-10 (US), $1-3 (Asia)
-- **Best Audience:** 18-34, serious gamers
-- **Channel Types:** Personal brand, faceless
-- **Time per Video:** 2-4 hours
-- **Viral Potential:** High (new releases)
-- **Evergreen Score:** Low
+### Game Reviews
+- **CPM:** $4-10 (USA), $1-3 (Global)
+- **Best For:** Personal brand, Faceless
+- **Time/Video:** 3-5 hours
 - **Video Ideas:**
-  1. "[New Game] - Is It Worth $70?"
-  2. "Games Coming Out This Month"
-  3. "Why [Game] Failed/Succeeded"
+  1. "[New Game] - Honest Review After 100 Hours"
+  2. "Is [Game] Worth $70? Full Review"
+  3. "Best Games Coming Out This Month"
+  4. "Why [Game] Failed - Full Breakdown"
+  5. "Hidden Gem Games You've Never Heard Of"
+
+---
+
+## Education Niches
+
+### Study Tips & Productivity
+- **CPM:** $6-12 (USA), $2-4 (Global)
+- **Best For:** Personal brand, Screen recording
+- **Time/Video:** 2-4 hours
+- **Video Ideas:**
+  1. "How I Got Straight A's Without Studying"
+  2. "The Pomodoro Technique That Changed My Life"
+  3. "Best Note-Taking Apps for Students"
+  4. "Study With Me - 2 Hour Session"
+  5. "How to Learn Anything 10x Faster"
+
+### Language Learning
+- **CPM:** $8-15 (USA), $3-6 (Global)
+- **Best For:** Personal brand, Tutorials
+- **Time/Video:** 3-5 hours
+- **Video Ideas:**
+  1. "Learn [Language] in 30 Days Challenge"
+  2. "100 Most Common Words in [Language]"
+  3. "Native Speaker Reacts to Language Learners"
+  4. "How I Became Fluent in 6 Months"
+  5. "[Language] for Beginners - Full Course"
 
 ---
 
 ## Health & Fitness Niches
 
 ### Home Workouts
-- **CPM Range:** $5-12 (US), $2-4 (Asia)
-- **Best Audience:** 25-44, fitness beginners
-- **Channel Types:** Personal brand
-- **Time per Video:** 2-4 hours
-- **Viral Potential:** Medium
-- **Evergreen Score:** Very High
+- **CPM:** $5-12 (USA), $2-4 (Global)
+- **Best For:** Personal brand
+- **Time/Video:** 2-4 hours
 - **Video Ideas:**
   1. "10 Minute Fat Burning Workout (No Equipment)"
   2. "30 Day Transformation Challenge"
-  3. "Exercises to Fix [Body Part]"
+  3. "Exercises to Fix Your Posture"
+  4. "Full Body Workout for Beginners"
+  5. "I Did 100 Push-ups Daily for 30 Days"
 
 ### Nutrition & Diet
-- **CPM Range:** $7-15 (US), $2-5 (Asia)
-- **Best Audience:** 25-44, health-conscious
-- **Channel Types:** Personal brand, tutorials
-- **Time per Video:** 3-5 hours
-- **Viral Potential:** Medium
-- **Evergreen Score:** High
+- **CPM:** $7-15 (USA), $2-5 (Global)
+- **Best For:** Personal brand, Mixed
+- **Time/Video:** 3-5 hours
 - **Video Ideas:**
   1. "What I Eat in a Day to Lose Weight"
   2. "Foods You Should Never Eat"
   3. "Meal Prep for the Entire Week"
+  4. "I Tried Every Diet - Here's What Works"
+  5. "Intermittent Fasting - Complete Guide"
 
 ---
 
-## Scoring Weights by Priority
+## Cooking Niches
 
-| User Priority | CPM Weight | Ease Weight | Viral Weight | Evergreen Weight | Competition Weight |
-|---------------|------------|-------------|--------------|------------------|-------------------|
-| High CPM | 3.0 | 0.5 | 1.0 | 1.0 | 0.5 |
-| Easy Content | 0.5 | 3.0 | 1.0 | 1.0 | 0.5 |
-| Viral Potential | 1.0 | 0.5 | 3.0 | 0.5 | 1.0 |
-| Evergreen | 1.0 | 1.0 | 0.5 | 3.0 | 0.5 |
-| Low Competition | 0.5 | 1.0 | 0.5 | 1.0 | 3.0 |
+### Recipes & Cooking
+- **CPM:** $5-10 (USA), $1-4 (Global)
+- **Best For:** Personal brand
+- **Time/Video:** 3-5 hours
+- **Video Ideas:**
+  1. "5 Minute Meals for Busy People"
+  2. "Restaurant Quality [Dish] at Home"
+  3. "Budget Meals Under $5"
+  4. "Viral TikTok Recipes - Are They Good?"
+  5. "Cooking Challenge - $100 vs $10"
 
-## Channel Type Compatibility
+---
 
-| Niche | Faceless | Personal Brand | Screen Recording | Mixed |
-|-------|----------|----------------|------------------|-------|
-| AI Tools | ✅ Best | ✅ Good | ✅ Best | ✅ Good |
-| Make Money | ⚠️ OK | ✅ Best | ⚠️ OK | ✅ Good |
-| Facts/Lists | ✅ Best | ⚠️ OK | ❌ Bad | ⚠️ OK |
-| Gaming | ✅ Good | ✅ Good | ⚠️ OK | ✅ Best |
-| Tutorials | ⚠️ OK | ✅ Good | ✅ Best | ✅ Good |
-| Motivation | ✅ Best | ✅ Good | ❌ Bad | ⚠️ OK |
-| Health | ❌ Bad | ✅ Best | ⚠️ OK | ✅ Good |
+## Time Compatibility Matrix
 
-## Time Investment Compatibility
-
-| Niche | 1-2 hrs | 3-5 hrs | Full Day | Multiple Days |
-|-------|---------|---------|----------|---------------|
+| Niche | Under 2h | 2-5h | 5-10h | 10h+ |
+|-------|----------|------|-------|------|
 | AI Tools | ⚠️ Basic | ✅ Good | ✅ Best | ⚠️ Overkill |
 | Make Money | ❌ Bad | ⚠️ OK | ✅ Best | ✅ Best |
 | Facts/Lists | ✅ Good | ✅ Best | ⚠️ Overkill | ❌ Overkill |
-| Gaming Clips | ✅ Best | ⚠️ OK | ❌ Overkill | ❌ Overkill |
+| Gaming Clips | ✅ Best | ✅ Good | ❌ Overkill | ❌ Overkill |
 | Tutorials | ❌ Bad | ⚠️ OK | ✅ Good | ✅ Best |
 | Motivation | ✅ Good | ✅ Best | ⚠️ OK | ❌ Overkill |
+| Cooking | ❌ Bad | ✅ Good | ✅ Best | ⚠️ Overkill |
+
+---
+
+## Subscriber Stage Recommendations
+
+### New Channel (0-1K)
+**Best niches:** Facts, Gaming Clips, Motivation
+- Focus on: Shorts, trending topics, high volume
+- Avoid: High production niches, oversaturated topics
+
+### Growing (1K-10K)
+**Best niches:** AI Tools, Study Tips, Tutorials
+- Focus on: SEO, consistency, building authority
+- Avoid: Extremely competitive niches
+
+### Established (10K-100K)
+**Best niches:** Make Money, Personal Finance, Tech
+- Focus on: Higher CPM, sponsorships, community
+- Avoid: Low CPM niches unless passionate
+
+### Large (100K+)
+**Best niches:** Any that matches brand
+- Focus on: Diversification, courses, products
+- Consider: Multiple revenue streams

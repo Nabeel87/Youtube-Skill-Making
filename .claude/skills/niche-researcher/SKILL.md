@@ -1,9 +1,9 @@
 ---
 name: niche-researcher
 description: |
-  Helps YouTubers find profitable niches through interactive MCQ questions.
+  Find profitable YouTube niches through interactive MCQ questions.
   This skill should be used when users say "find niche", "niche research",
-  "suggest niche", "profitable niche", or want help choosing a YouTube niche.
+  "suggest niche", "topic ideas", or "what should I make videos about".
 ---
 
 # Niche Researcher
@@ -12,88 +12,112 @@ Find the perfect YouTube niche through guided MCQ questions and scored recommend
 
 ## What This Skill Does
 
-- Asks 5 MCQ questions one-by-one to understand user preferences
-- Scores and evaluates niche options based on answers
-- Recommends top 3 niches with profitability scores
-- Provides actionable next steps for chosen niche
+- Asks 6 MCQ questions one-by-one to understand preferences
+- Scores niches based on user's priority and constraints
+- Recommends top 3 niches with profitability analysis
+- Provides actionable video ideas for each niche
 
 ## What This Skill Does NOT Do
 
-- Create content or scripts (use `script-writer` skill)
-- Generate thumbnails or images (use `image-prompt-generator` skill)
+- Write scripts (use `script-writer` skill)
+- Generate thumbnails (use `image-prompt-generator` skill)
 - Research specific keywords or SEO
 
 ---
 
 ## Workflow
 
-### Step 1: Ask MCQ Questions (One by One)
+### Step 1: Ask MCQ Questions (One at a Time)
 
-Ask each question, wait for answer, then proceed to next.
+**IMPORTANT:** Ask one question → Wait for answer → Then ask next question
+
+---
 
 **Q1: Content Category**
 ```
-🎯 What's your main content category?
+🎯 Select your content category:
 
-A) Tech & AI
-B) Finance & Money
+A) Tech & AI Tools
+B) Finance & Make Money Online
 C) Health & Fitness
-D) Gaming
-E) Education & How-to
-F) Entertainment & Lifestyle
-G) Other (let me type)
+D) Gaming & Esports
+E) Education & Tutorials
+F) Facts & Entertainment
+G) Motivation & Self-improvement
+H) Cooking & Recipes
+I) News & Current Affairs
+J) Custom (type your own)
 ```
 
-**Q2: Target Audience Age**
-```
-👥 What's your target audience age?
+---
 
-A) 13-17 (Teens)
-B) 18-24 (Young Adults)
-C) 25-34 (Millennials)
-D) 35-44 (Mid Adults)
-E) 45+ (Mature)
+**Q2: Channel Type**
 ```
+📹 What's your channel type?
 
-**Q3: Channel Type**
-```
-📹 What type of channel do you have?
-
-A) Faceless channel
+A) Faceless (no face on camera)
 B) Personal brand (face on camera)
-C) Screen recording/tutorial
-D) Mix of all
+C) Screen recording style
+D) Mixed content
 ```
 
-**Q4: Priority**
-```
-⭐ What's your priority?
+---
 
-A) High CPM (more money per view)
-B) Easy content creation
+**Q3: Top Priority**
+```
+💰 What's your top priority?
+
+A) High CPM (maximum earnings)
+B) Easy to create
 C) Viral potential
-D) Long-term evergreen content
+D) Evergreen content
 E) Low competition
 ```
 
-**Q5: Time Investment**
+---
+
+**Q4: Time Per Video**
 ```
 ⏰ How much time can you spend per video?
 
-A) 1-2 hours
-B) 3-5 hours
-C) Full day
-D) Multiple days
+A) Under 2 hours
+B) 2-5 hours
+C) 5-10 hours
+D) 10+ hours (quality focus)
+```
+
+---
+
+**Q5: Target Audience**
+```
+🌍 Who is your target audience?
+
+A) South Asia (Pakistan/India - Urdu/Hindi)
+B) USA/UK (English speakers)
+C) Global (mixed audience)
+D) Middle East (Arabic)
+```
+
+---
+
+**Q6: Channel Status**
+```
+📊 What's your current subscriber count?
+
+A) 0-1K (new channel)
+B) 1K-10K (growing)
+C) 10K-100K (established)
+D) 100K+ (large channel)
 ```
 
 ---
 
 ### Step 2: Calculate Niche Scores
 
-After collecting all answers, calculate scores using this matrix:
+After collecting all answers, use this scoring matrix:
 
-| Niche | CPM Score | Ease Score | Viral Score | Evergreen Score | Competition Score |
-|-------|-----------|------------|-------------|-----------------|-------------------|
+| Niche | CPM | Ease | Viral | Evergreen | Competition |
+|-------|-----|------|-------|-----------|-------------|
 | AI Tools Reviews | 9 | 7 | 8 | 6 | 4 |
 | Make Money Online | 10 | 5 | 7 | 7 | 3 |
 | Personal Finance | 9 | 6 | 5 | 9 | 5 |
@@ -102,115 +126,129 @@ After collecting all answers, calculate scores using this matrix:
 | Facts & Lists | 5 | 8 | 8 | 7 | 4 |
 | Motivation | 6 | 8 | 7 | 8 | 5 |
 | Health Tips | 7 | 6 | 6 | 9 | 5 |
-| Product Reviews | 8 | 5 | 5 | 7 | 4 |
+| Cooking | 5 | 7 | 6 | 9 | 6 |
 | News Commentary | 6 | 7 | 8 | 3 | 5 |
+| Crypto/Trading | 10 | 5 | 9 | 4 | 4 |
+| Study Tips | 6 | 7 | 6 | 8 | 6 |
 
-**Scoring Formula:**
-```
-Final Score = (Category Match × 2) + (Priority Score × 3) + (Time Compatibility × 1.5) + (Channel Type Fit × 1.5)
-```
+**Priority Weights:**
+- High CPM: CPM×3, Ease×0.5, Viral×1, Evergreen×1, Competition×0.5
+- Easy Content: CPM×0.5, Ease×3, Viral×1, Evergreen×1, Competition×0.5
+- Viral: CPM×1, Ease×0.5, Viral×3, Evergreen×0.5, Competition×1
+- Evergreen: CPM×1, Ease×1, Viral×0.5, Evergreen×3, Competition×0.5
+- Low Competition: CPM×0.5, Ease×1, Viral×0.5, Evergreen×1, Competition×3
 
 ---
 
 ### Step 3: Generate Output
 
-Use this exact output template:
+Use this exact template:
 
 ```markdown
-## 🎯 Your Niche Analysis Results
+## 🎯 Niche Analysis Results
 
-### Your Profile Summary
-- **Category:** [Selected]
-- **Audience:** [Selected]
-- **Channel Type:** [Selected]
-- **Priority:** [Selected]
-- **Time Available:** [Selected]
+### 📋 Your Profile
+| Question | Your Answer |
+|----------|-------------|
+| Category | [Answer] |
+| Channel Type | [Answer] |
+| Priority | [Answer] |
+| Time/Video | [Answer] |
+| Audience | [Answer] |
+| Subscribers | [Answer] |
 
 ---
 
 ### 🏆 Top 3 Recommended Niches
 
 #### #1: [Niche Name] ⭐ Score: X/10
-- **CPM Range:** $X - $X
-- **Why it fits you:** [Explanation based on answers]
-- **Content ideas:** [3 video ideas]
-- **Competition level:** Low/Medium/High
+
+| Metric | Value |
+|--------|-------|
+| 💰 CPM Range | $X - $X |
+| 📈 Growth Potential | X/10 |
+| ⏰ Time Required | X hours/video |
+| 🎯 Competition | Low/Medium/High |
+
+**Why this fits you:** [2-3 sentences based on their answers]
+
+**Video Ideas:**
+1. [Specific video title idea]
+2. [Specific video title idea]
+3. [Specific video title idea]
+
+---
 
 #### #2: [Niche Name] ⭐ Score: X/10
-- **CPM Range:** $X - $X
-- **Why it fits you:** [Explanation]
-- **Content ideas:** [3 video ideas]
-- **Competition level:** Low/Medium/High
+[Same format]
+
+---
 
 #### #3: [Niche Name] ⭐ Score: X/10
-- **CPM Range:** $X - $X
-- **Why it fits you:** [Explanation]
-- **Content ideas:** [3 video ideas]
-- **Competition level:** Low/Medium/High
+[Same format]
 
 ---
 
 ### 📊 Quick Comparison
 
-| Niche | CPM | Ease | Viral | Evergreen | Overall |
-|-------|-----|------|-------|-----------|---------|
-| [#1]  | X/10 | X/10 | X/10 | X/10 | X/10 |
-| [#2]  | X/10 | X/10 | X/10 | X/10 | X/10 |
-| [#3]  | X/10 | X/10 | X/10 | X/10 | X/10 |
+| Niche | CPM | Ease | Viral | Evergreen | **Overall** |
+|-------|-----|------|-------|-----------|-------------|
+| #1 | X/10 | X/10 | X/10 | X/10 | **X/10** |
+| #2 | X/10 | X/10 | X/10 | X/10 | **X/10** |
+| #3 | X/10 | X/10 | X/10 | X/10 | **X/10** |
 
 ---
 
 ### ✅ Next Steps
 
-1. **Pick your niche** from the top 3
-2. **Use `/script-writer`** to create your first script
-3. **Research 10 competitors** in your chosen niche
+1. Pick your niche from the top 3
+2. Use `/script-writer` to create your first script
+3. Research 10 competitor channels in your niche
+4. Plan your first 10 video titles
 ```
 
 ---
 
-## Niche Database
+## Channel Type Compatibility
 
-### Tech & AI Niches
-| Niche | CPM | Difficulty | Best For |
-|-------|-----|------------|----------|
-| AI Tools Reviews | $8-15 | Medium | Faceless, tutorials |
-| Tech News | $6-12 | Easy | Commentary, news |
-| Software Tutorials | $10-20 | Hard | Screen recording |
-| Gadget Reviews | $8-15 | Medium | Personal brand |
+| Niche | Faceless | Personal Brand | Screen Recording | Mixed |
+|-------|----------|----------------|------------------|-------|
+| AI Tools | ✅ Best | ✅ Good | ✅ Best | ✅ Good |
+| Make Money | ⚠️ OK | ✅ Best | ⚠️ OK | ✅ Good |
+| Facts/Lists | ✅ Best | ⚠️ OK | ❌ Bad | ⚠️ OK |
+| Gaming | ✅ Good | ✅ Good | ✅ Good | ✅ Best |
+| Tutorials | ⚠️ OK | ✅ Good | ✅ Best | ✅ Good |
+| Motivation | ✅ Best | ✅ Good | ❌ Bad | ⚠️ OK |
+| Health | ❌ Bad | ✅ Best | ⚠️ OK | ✅ Good |
+| Cooking | ❌ Bad | ✅ Best | ⚠️ OK | ✅ Good |
 
-### Finance Niches
-| Niche | CPM | Difficulty | Best For |
-|-------|-----|------------|----------|
-| Make Money Online | $15-30 | Hard | Personal brand |
-| Crypto/Trading | $12-25 | Medium | All types |
-| Personal Finance | $10-20 | Medium | Tutorials |
-| Side Hustles | $12-25 | Easy | Faceless |
+---
 
-### Entertainment Niches
-| Niche | CPM | Difficulty | Best For |
-|-------|-----|------------|----------|
-| Facts & Lists | $3-8 | Easy | Faceless |
-| Story Time | $4-10 | Medium | Personal brand |
-| Reactions | $3-8 | Easy | Personal brand |
-| Compilations | $2-6 | Easy | Faceless |
+## Audience CPM Multipliers
 
-### Education Niches
-| Niche | CPM | Difficulty | Best For |
-|-------|-----|------------|----------|
-| Language Learning | $8-15 | Medium | All types |
-| Study Tips | $6-12 | Easy | Personal brand |
-| Course Reviews | $10-18 | Medium | Screen recording |
-| Skill Tutorials | $8-15 | Hard | Tutorial style |
+| Audience | CPM Multiplier | Best Niches |
+|----------|----------------|-------------|
+| USA/UK | 1.0x (base) | Finance, Tech, Health |
+| Global | 0.6x | Gaming, Tech, Entertainment |
+| South Asia | 0.3x | Facts, Motivation, Cooking |
+| Middle East | 0.5x | Business, Motivation |
 
 ---
 
 ## Output Checklist
 
-Before delivering results:
-- [ ] All 5 questions answered
-- [ ] Scores calculated correctly
-- [ ] Top 3 niches match user's priority
-- [ ] CPM ranges are realistic
-- [ ] Content ideas are specific and actionable
-- [ ] Next steps include reference to other skills
+Before delivering:
+- [ ] All 6 questions answered
+- [ ] Scores calculated with correct priority weights
+- [ ] Top 3 niches match user's channel type
+- [ ] CPM adjusted for target audience
+- [ ] Video ideas are specific and actionable
+- [ ] Next steps reference `/script-writer`
+
+---
+
+## Reference Files
+
+| File | When to Read |
+|------|--------------|
+| `references/niche-database.md` | Detailed niche data and video ideas |
